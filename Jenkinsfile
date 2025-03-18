@@ -4,7 +4,7 @@ pipeline{
     stages {
         stage('Checkout Code') {
             steps {
-                git  crendtialsID : 'kimjisoo22',url: 'https://github.com/kimjisoo22/hello_python_pp.git', branch='main'
+                git  crendtialsId : 'kimjisoo22',url: 'https://github.com/kimjisoo22/hello_python_pp.git', branch='main'
             }
         }
 
